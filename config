@@ -196,3 +196,9 @@ exec --no-startup-id setxkbmap -model pc105 -layout "us,ru" -option grp:lalt_lsh
 # Screenshots
 bindsym Print exec flameshot full
 bindsym $mod+Print exec flameshot gui
+
+# Wallpaper
+exec_always feh --bg-scale --bg-fill ~/.system/wallpaper.jpg
+
+# Terminal
+#exec_always --no-startup-id compton
